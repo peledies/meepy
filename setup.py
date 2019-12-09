@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="meepy",
-    version="0.0.3",
+    version="0.0.4",
     author="Deac Karns",
     author_email="deac@hashsalt.net",
     description="A diagnostics package for when print statemets are not adequate",
