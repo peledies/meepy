@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: meepy
+Version: 0.0.3
+Summary: A diagnostics package for when print statemets are not adequate
+Home-page: https://github.com/peledies/meepy
+Author: Deac Karns
+Author-email: deac@hashsalt.net
+License: UNKNOWN
+Description: # Meep Morp
+        
+        > meep morp clink clank
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
