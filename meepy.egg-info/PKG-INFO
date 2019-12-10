@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: meepy
-Version: 0.0.3
+Version: 0.0.4
 Summary: A diagnostics package for when print statemets are not adequate
 Home-page: https://github.com/peledies/meepy
 Author: Deac Karns
@@ -8,7 +8,36 @@ Author-email: deac@hashsalt.net
 License: UNKNOWN
 Description: # Meep Morp
         
-        > meep morp clink clank
+        >meep morp clink clank
+        
+        ## Examples
+        ---
+        
+        ### Import
+        ```python
+        from meepy import Meep
+        ```
+        
+        ### Meep morp the current line number
+        ```python
+        Meep.morp()
+        ```
+        
+        ### Meep morp with a custom message
+        ```python
+        Meep.morp(message='a custom message')
+        ```
+        
+        ### Meep morp with the method path and line
+        ```python
+        from meepy import Meep
+        
+        class Example:
+            def test():
+                Meep.morp(self)
+                # or
+                Meep.morp(parent=self)
+        ```
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
